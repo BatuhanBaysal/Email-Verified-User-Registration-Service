@@ -24,7 +24,11 @@ public class AuthController {
 
     @PostMapping("/register")
     public ResponseEntity<String> registerUser(@RequestBody RegisterRequest registerRequest) {
-        userService.saveNewUser(registerRequest.getEmail(), registerRequest.getPassword());
+        userService.saveNewUser(
+                registerRequest.getEmail(),
+                registerRequest.getPassword(),
+                registerRequest.getUsername()
+        );
         return ResponseEntity.ok("Registration successful. Confirmation email is pending (Redis/Notification Service active).");
     }
 
