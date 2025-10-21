@@ -1,0 +1,15 @@
+C:\Users\batuh\Intellij Idea\email-confirmation\auth-service\src\main\java\com\batuhan\project\AuthServiceApplication.java
+C:\Users\batuh\Intellij Idea\email-confirmation\auth-service\src\main\java\com\batuhan\project\config\RedisConfig.java
+C:\Users\batuh\Intellij Idea\email-confirmation\auth-service\src\main\java\com\batuhan\project\config\SecurityConfig.java
+C:\Users\batuh\Intellij Idea\email-confirmation\auth-service\src\main\java\com\batuhan\project\controller\AuthController.java
+C:\Users\batuh\Intellij Idea\email-confirmation\auth-service\src\main\java\com\batuhan\project\dto\JwtResponse.java
+C:\Users\batuh\Intellij Idea\email-confirmation\auth-service\src\main\java\com\batuhan\project\dto\LoginRequest.java
+C:\Users\batuh\Intellij Idea\email-confirmation\auth-service\src\main\java\com\batuhan\project\dto\RegisterRequest.java
+C:\Users\batuh\Intellij Idea\email-confirmation\auth-service\src\main\java\com\batuhan\project\entity\UserEntity.java
+C:\Users\batuh\Intellij Idea\email-confirmation\auth-service\src\main\java\com\batuhan\project\event\UserRegisteredEvent.java
+C:\Users\batuh\Intellij Idea\email-confirmation\auth-service\src\main\java\com\batuhan\project\exception\EmailAlreadyExistsException.java
+C:\Users\batuh\Intellij Idea\email-confirmation\auth-service\src\main\java\com\batuhan\project\jwt\AuthTokenFilter.java
+C:\Users\batuh\Intellij Idea\email-confirmation\auth-service\src\main\java\com\batuhan\project\jwt\JwtUtils.java
+C:\Users\batuh\Intellij Idea\email-confirmation\auth-service\src\main\java\com\batuhan\project\repository\UserRepository.java
+C:\Users\batuh\Intellij Idea\email-confirmation\auth-service\src\main\java\com\batuhan\project\service\UserDetailsServiceImpl.java
+C:\Users\batuh\Intellij Idea\email-confirmation\auth-service\src\main\java\com\batuhan\project\service\UserService.java
