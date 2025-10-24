@@ -21,7 +21,6 @@ public class UserService {
     private final PasswordEncoder passwordEncoder;
     private final RedisTemplate<String, Object> redisTemplate;
     private static final String USER_REGISTRATION_TOPIC = "user-registration-queue";
-
     private final ObjectMapper objectMapper = new ObjectMapper();
 
     @PostConstruct
@@ -50,7 +49,7 @@ public class UserService {
         try {
             String jsonEvent = objectMapper.writeValueAsString(event);
             redisTemplate.convertAndSend(USER_REGISTRATION_TOPIC, jsonEvent);
-            System.out.println("AUTH SERVICE (UserService - İlkel): Publishing JSON string: " + jsonEvent);
+            System.out.println("AUTH SERVICE (UserService): Publishing JSON string: " + jsonEvent);
 
         } catch (JsonProcessingException e) {
             System.err.println("ERROR: Failed to serialize UserRegisteredEvent to JSON string.");
