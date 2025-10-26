@@ -102,13 +102,13 @@ Kullanıcı kayıt akışını test etmek için:
 Konsolda, her iki servisten de gelen başarılı çıktılar.
 
 > **[POSTMAN BAŞARILI İSTEK]**
-![Servis Başlatma Çıktıları](assets/postman.png)
+![Servis Başlatma Çıktıları](assets/postman.PNG)
 
 > **[AUTH TERMİNAL KONSOL ÇIKTISI]**
-![Servis Başlatma Çıktıları](assets/auth_save_info.png)
+![Servis Başlatma Çıktıları](assets/auth_save_info.PNG)
 
 > **[NOTİFİCATİON TERMİNAL KONSOL ÇIKTISI]**
-![Servis Başlatma Çıktıları](assets/notification_save_info.png)
+![Servis Başlatma Çıktıları](assets/notification_save_info.PNG)
 
 ### 5. E-posta Onay Kontrolü
 
