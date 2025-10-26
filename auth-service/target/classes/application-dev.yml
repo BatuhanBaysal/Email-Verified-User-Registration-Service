@@ -21,6 +21,18 @@ spring:
       host: localhost
       port: 6379
 
+  management:
+    endpoints:
+      web:
+        exposure:
+          include: "health,info,env,metrics,beans,mappings"
+        base-path: /actuator
+    endpoint:
+      health:
+        show-details: always
+    server:
+      port: 8080
+
 jwt:
   secret: ${JWT_SIGNING_SECRET:A_Strong_Secret_For_Dev_Only}
   expirationMs: 86400000
